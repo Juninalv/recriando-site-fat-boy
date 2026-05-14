@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background-primary-color: #000000;
+  --background-secondary-color: #8b0000;
+  --background-terciary-color: ;
+
+  --btn-primary-color: #8b0000;
+  --btn-secondary-color: ;
+
+  --card-primary-color: #ee0101;
+
+  --text-primary-color: #ffffff;
+  --text-secondary-color: #595959;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.faixa {
+  height: 10px;
+  background-color: var(--background-secondary-color);
+}

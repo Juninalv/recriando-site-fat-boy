@@ -1,0 +1,36 @@
+.main-header {
+  background: var(--background-primary-color);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 224px;
+  width: 100%;
+}
+
+.main-nav {
+  position: absolute;
+  right: 80px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 120px;
+}
+
+.list-links {
+  display: flex;
+  gap: 24px;
+}
+
+.list-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-reservas {
+  background-color: var(--btn-primary-color);
+  color: white;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 999px;
+}
