@@ -12,21 +12,14 @@
   letter-spacing: 4px;
 }
 
-/* GRID DOS CARDS */
-
 .grid-cardapio {
-  display: grid; /* cria colunas automáticas */
-  grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
   justify-content: center;
-  /* repeat() - Repete colunas automaticamente.
-auto-fit - Faz o CSS encaixar automaticamente quantas colunas couberem. */
-  gap: 45px 0px;
+  gap: 45px 24px;
   max-width: 850px;
-  max-height: 225px;
   margin: 50px auto;
 }
-
-/* CARD */
 
 .card {
   display: flex;
@@ -35,8 +28,6 @@ auto-fit - Faz o CSS encaixar automaticamente quantas colunas couberem. */
   text-decoration: none;
   width: fit-content;
 }
-
-/* QUADRADO VERMELHO */
 
 .card img {
   width: 75px;
@@ -49,13 +40,9 @@ auto-fit - Faz o CSS encaixar automaticamente quantas colunas couberem. */
   transition: 0.3s;
 }
 
-/* HOVER */
-
 .card:hover img {
   transform: translateY(-5px);
 }
-
-/* TEXTO */
 
 .card h3 {
   color: var(--text-secondary-color);
@@ -63,4 +50,51 @@ auto-fit - Faz o CSS encaixar automaticamente quantas colunas couberem. */
   font-size: 1rem;
   line-height: 1.4;
   pointer-events: none;
+}
+
+/* ===== TABLET ===== */
+
+@media (max-width: 1024px) {
+  .grid-cardapio {
+    gap: 36px 20px;
+  }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+  .cardapio {
+    padding: 50px 16px;
+  }
+
+  .cardapio h2 {
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+  }
+
+  .grid-cardapio {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 32px 16px;
+  }
+
+  .card:nth-last-child(2) {
+    grid-column: 2;
+  }
+
+  .card:last-child {
+    grid-column: 3;
+  }
+
+  .card img {
+    width: 65px;
+    height: 65px;
+
+    padding: 14px;
+  }
+
+  .card h3 {
+    font-size: 0.9rem;
+  }
 }

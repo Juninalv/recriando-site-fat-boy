@@ -61,3 +61,47 @@
   color: var(--text-primary-color);
   font-size: 0.95rem;
 }
+/* ===== TABLET ===== */
+
+@media (max-width: 1024px) {
+  .footer-info {
+    gap: 48px;
+    padding: 0 24px 30px;
+  }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+  .footer {
+    padding-top: 40px;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+  }
+
+  .footer-card {
+    max-width: 100%;
+  }
+
+  .footer-icon {
+    width: 85px;
+    height: 85px;
+  }
+
+  .footer-icon img {
+    width: 36px;
+  }
+
+  .footer-bottom img {
+    width: 140px;
+  }
+
+  .footer-bottom p {
+    font-size: 0.85rem;
+  }
+}

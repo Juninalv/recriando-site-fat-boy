@@ -6,3 +6,17 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .hero {
+    height: 360px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero {
+    height: 260px;
+  }
+}

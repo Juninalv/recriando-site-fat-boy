@@ -5,3 +5,16 @@
   filter: brightness(0.2);
   margin-bottom: 15px;
 }
+/* TABLET */
+@media (max-width: 1024px) {
+  .img-section {
+    height: 320px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .img-section {
+    height: 220px;
+  }
+}

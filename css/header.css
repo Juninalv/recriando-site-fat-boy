@@ -6,6 +6,7 @@
   align-items: center;
   height: 224px;
   width: 100%;
+  padding: 0 24px;
 }
 
 .main-nav {
@@ -14,7 +15,6 @@
   display: flex;
   align-items: center;
   gap: 16px;
-  padding: 120px;
 }
 
 .list-links {
@@ -33,4 +33,56 @@
   text-decoration: none;
   padding: 12px 24px;
   border-radius: 999px;
+}
+
+/* ===== TABLET ===== */
+
+@media (max-width: 1024px) {
+  .main-nav {
+    right: 32px;
+    gap: 12px;
+  }
+
+  .list-links {
+    gap: 16px;
+  }
+
+  .btn-reservas {
+    padding: 10px 18px;
+  }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 768px) {
+  .main-header {
+    height: auto;
+
+    flex-direction: column;
+
+    padding: 32px 20px;
+  }
+
+  .main-nav {
+    position: static;
+
+    flex-direction: column;
+
+    margin-top: 24px;
+  }
+
+  .list-links {
+    flex-direction: column;
+    align-items: center;
+
+    gap: 16px;
+  }
+
+  .btn-reservas {
+    margin-top: 8px;
+  }
+
+  .logo-fatboy {
+    width: 180px;
+  }
 }
