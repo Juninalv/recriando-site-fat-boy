@@ -1,0 +1,15 @@
+.galeria {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--background-primary-color);
+  gap: 10px;
+  padding: 15px 15px 15px 0;
+}
+
+.galeria img {
+  width: 25%;
+  height: 500px;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
