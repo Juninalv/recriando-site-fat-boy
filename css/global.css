@@ -113,6 +113,85 @@ html {
   scroll-behavior: smooth;
 }
 
+/* ===== SUGESTÃO DO CHEFE ===== */
+
+.sugestao-chefe {
+  width: 100%;
+
+  padding: 70px 20px;
+
+  background: #111;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ===== TITULO ===== */
+
+.sugestao-chefe h2 {
+  color: var(--text-primary-color);
+
+  font-size: 2rem;
+  font-weight: 600;
+
+  letter-spacing: 4px;
+
+  text-align: center;
+
+  margin-bottom: 40px;
+}
+
+/* ===== CARD ===== */
+
+.sugestao-chefe-card {
+  width: 100%;
+  max-width: 850px;
+}
+
+/* ===== IMAGEM ===== */
+
+.sugestao-chefe-card img {
+  width: 100%;
+  height: 260px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+/* ===== INFO ===== */
+
+.sugestao-chefe-info {
+  padding-top: 20px;
+}
+
+.sugestao-chefe-info h3 {
+  color: #fff;
+
+  font-size: 1.3rem;
+  font-weight: 500;
+
+  margin-bottom: 14px;
+}
+
+.sugestao-chefe-info p {
+  color: rgba(255, 255, 255, 0.75);
+
+  font-size: 0.95rem;
+
+  line-height: 1.7;
+
+  margin-bottom: 20px;
+}
+
+.sugestao-chefe-price span {
+  color: #fff;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
 /* ===== TABLET ===== */
 
 @media (max-width: 1024px) {
@@ -138,5 +217,30 @@ html {
 
   .terceira-faixa p {
     font-size: 0.9rem;
+  }
+  .sugestao-chefe {
+    padding: 60px 20px;
+  }
+
+  .sugestao-chefe h2 {
+    font-size: 1.6rem;
+
+    margin-bottom: 30px;
+  }
+
+  .sugestao-chefe-card img {
+    height: 200px;
+  }
+
+  .sugestao-chefe-info h3 {
+    font-size: 1.1rem;
+  }
+
+  .sugestao-chefe-info p {
+    font-size: 0.9rem;
+  }
+
+  .sugestao-chefe-price span {
+    font-size: 1.2rem;
   }
 }
