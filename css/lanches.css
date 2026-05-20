@@ -1,5 +1,3 @@
-/* ===== SECTION ===== */
-
 .lanches {
   width: 100%;
   display: grid;
@@ -10,13 +8,9 @@
   background: #000;
 }
 
-/* ===== CARD ===== */
-
 .lanches-card {
   width: 211px;
 }
-
-/* ===== IMAGE ===== */
 
 .lanches-card img {
   width: 407px;
@@ -25,13 +19,9 @@
   display: block;
 }
 
-/* ===== INFO ===== */
-
 .lanches-info {
   padding-top: 18px;
 }
-
-/* ===== TITLE ===== */
 
 .lanches-info h3 {
   color: #fff;
@@ -43,16 +33,12 @@
   margin-bottom: 10px;
 }
 
-/* ===== DESCRIPTION ===== */
-
 .lanches-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 12px;
   line-height: 1.7;
   margin-bottom: 14px;
 }
-
-/* ===== PRICE ===== */
 
 .lanches-price {
   display: flex;

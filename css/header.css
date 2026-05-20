@@ -4,8 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 224px;
   width: 100%;
+  height: 224px;
   padding: 0 24px;
 }
 
@@ -35,8 +35,6 @@
   border-radius: 999px;
 }
 
-/* ===== TABLET ===== */
-
 @media (max-width: 1024px) {
   .main-nav {
     right: 32px;
@@ -52,29 +50,22 @@
   }
 }
 
-/* ===== MOBILE ===== */
-
 @media (max-width: 768px) {
   .main-header {
     height: auto;
-
     flex-direction: column;
-
     padding: 32px 20px;
   }
 
   .main-nav {
     position: static;
-
     flex-direction: column;
-
     margin-top: 24px;
   }
 
   .list-links {
     flex-direction: column;
     align-items: center;
-
     gap: 16px;
   }
 
