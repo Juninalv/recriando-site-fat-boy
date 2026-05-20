@@ -111,18 +111,32 @@
 
 @media (max-width: 768px) {
   .drinks {
+    grid-template-columns: 1fr;
     gap: 50px;
-    grid-template-columns: repeat(1, 211px);
     padding: 60px 20px;
   }
 
   .drink-card {
     width: 100%;
-    max-width: 211px;
+    max-width: 407px;
+    margin: 0 auto;
   }
 
   .drink-card img {
     width: 100%;
-    height: 211px;
+    height: 210px;
+  }
+
+  .drinks h2 {
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+  }
+
+  .drinks-info h3 {
+    font-size: 13px;
+  }
+
+  .drinks-info p {
+    font-size: 11px;
   }
 }
