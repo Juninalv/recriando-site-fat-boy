@@ -1,6 +1,6 @@
 /* ===== SECTION ===== */
 
-.drinks {
+.lanches {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 211px);
@@ -12,13 +12,13 @@
 
 /* ===== CARD ===== */
 
-.drink-card {
+.lanches-card {
   width: 211px;
 }
 
 /* ===== IMAGE ===== */
 
-.drink-card img {
+.lanches-card img {
   width: 407px;
   height: 211px;
   object-fit: cover;
@@ -27,13 +27,13 @@
 
 /* ===== INFO ===== */
 
-.drink-info {
+.lanches-info {
   padding-top: 18px;
 }
 
 /* ===== TITLE ===== */
 
-.drink-info h3 {
+.lanches-info h3 {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
@@ -45,7 +45,7 @@
 
 /* ===== DESCRIPTION ===== */
 
-.drink-info p {
+.lanches-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 12px;
   line-height: 1.7;
@@ -54,13 +54,13 @@
 
 /* ===== PRICE ===== */
 
-.drink-price {
+.lanches-price {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
 
-.drink-price span {
+.lanches-price span {
   color: #fff;
   font-size: 14px;
   font-weight: 600;

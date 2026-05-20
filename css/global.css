@@ -59,7 +59,8 @@ img {
   padding: 16px;
 }
 
-.faixa-drinks {
+.faixa-drinks,
+.faixa-lanches {
   width: 100%;
   height: 120px;
   background-color: #59595968;
@@ -68,7 +69,8 @@ img {
   justify-content: center;
 }
 
-.faixa-drinks h2 {
+.faixa-drinks h2,
+.faixa-lanches h2 {
   color: var(--text-primary-color);
   font-size: 2rem;
   font-weight: 600;
@@ -110,6 +112,7 @@ img {
 html {
   scroll-behavior: smooth;
 }
+
 /* ===== TABLET ===== */
 
 @media (max-width: 1024px) {
